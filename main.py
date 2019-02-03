@@ -44,11 +44,15 @@ else:
 curv = round(curv, rnd)
 
 # Print output
-print """
-Distance: %r
-Curvature: %f
-""" % (dist, curv)
-    
-
+if units == "MI":
+    print """
+    Distance: %r mi
+    Curvature: %f mi
+    """ % (dist, curv)
+else:
+    print """
+    Distance: %r km
+    Curvature: %f km
+    """ % (dist, curv)
 
 
