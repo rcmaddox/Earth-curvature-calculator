@@ -15,6 +15,8 @@
 
 # Contact the author at: colemaddox@protonmail.com
 
+# test
+
 from sys import argv
 import math
 
@@ -71,5 +73,3 @@ else:
     Distance: %r km
     Curvature: %f km
     """ % (dist, curv)
-
-
