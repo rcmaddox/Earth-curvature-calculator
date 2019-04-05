@@ -1,6 +1,8 @@
 # Earth-curvature-calculator
 Terminal based Python program for calculating the curvature of the Earth.
 
+PLEASE NOTE: This calculator does not take into account altitude, it only calculates the curvature of the Earth at a given distance. This is, however, more accurate than the "8 inches per mile squared" formula!
+
 # Instructions
 
 ## For kilometers
