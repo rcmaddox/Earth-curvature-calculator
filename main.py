@@ -34,7 +34,7 @@ if units == "MI":
     # Convert Earth's radius to miles
     rad = rad / 1.609
 elif units != "KM":
-    print "ERROR: invalid parameter"
+    print("ERROR: invalid parameter")
 
 # Calculate circumference
 circ = 2.0 * float(math.pi) * rad
@@ -64,12 +64,8 @@ curv = round(curv, rnd)
 
 # Print output
 if units == "MI":
-    print """
-    Distance: %r mi
-    Curvature: %f mi
-    """ % (dist, curv)
+    print("Distance: %r mi" % (dist))
+    print("Curvature %f mi" % (curv))
 else:
-    print """
-    Distance: %r km
-    Curvature: %f km
-    """ % (dist, curv)
+    print("Distance: %r km" % (dist))
+    print("Curvature: %f km" % (curv))
